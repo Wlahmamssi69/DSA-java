@@ -16,6 +16,10 @@ public class ArrayInsertion {
                 Arrays.toString(arr));
     }
 
+    //getter
+    public int[] getArr(){
+        return arr;
+    }
  //inserting
      public void insert(int location , int value){
        try{
@@ -50,6 +54,17 @@ public class ArrayInsertion {
             }
         }
         System.out.println("value " + valueToSearch + " is not found");
+
+    }
+
+    //deleting an element : O(1) Time Complexity
+    public void deleteAtIndex(int valueToDeleteIndex){
+        try{
+            arr[valueToDeleteIndex] = Integer.MIN_VALUE;
+
+        }catch (IndexOutOfBoundsException e){
+            System.out.println("Index is not accessible ");
+        }
 
     }
 }

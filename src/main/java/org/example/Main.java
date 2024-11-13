@@ -2,6 +2,8 @@ package org.example;
 
 import org.example.arrays.ArrayInsertion;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
         ArrayInsertion arr =new ArrayInsertion(10);
@@ -18,6 +20,12 @@ public class Main {
         System.out.println("Search an element in Array");
         arr.searchInArray(4);
         arr.searchInArray(0);
+
+        //search an element
+        System.out.println("Delete an element in Array");
+        arr.deleteAtIndex(2);
+        System.out.println("Array after deleting element at index 2 : ");
+        System.out.println(arr.getArr()[2]);
 
     }
 }
