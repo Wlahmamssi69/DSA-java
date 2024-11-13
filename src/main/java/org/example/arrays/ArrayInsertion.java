@@ -33,11 +33,23 @@ public class ArrayInsertion {
      }
 
 
-//Array Traversal
+     //Array Traversal
     public void traverse(){
         for(int i = 0;i<arr.length;i++){
             System.out.print(arr[i] + " ");
         }
     }
 
+    //Search in Array
+    public void searchInArray(int valueToSearch){
+        //Linear search
+        for(int i = 0;i<arr.length;i++){
+            if(arr[i] == valueToSearch){
+                System.out.println("value " + valueToSearch + " is found At the index of :  "+i);
+                return;
+            }
+        }
+        System.out.println("value " + valueToSearch + " is not found");
+
+    }
 }

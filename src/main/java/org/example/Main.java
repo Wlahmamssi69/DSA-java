@@ -14,6 +14,10 @@ public class Main {
         //traversing
         System.out.println("Array Traversal");
         arr.traverse();
+        //search an element
+        System.out.println("Search an element in Array");
+        arr.searchInArray(4);
+        arr.searchInArray(0);
 
     }
 }
