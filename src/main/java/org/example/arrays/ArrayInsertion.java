@@ -3,9 +3,10 @@ package org.example.arrays;
 import java.util.Arrays;
 
 public class ArrayInsertion {
-    int[] arr;
+    //declare reference
+    int[] arr = null;
 
-//
+//instantiation
     public ArrayInsertion(int size){
         arr= new int[size];
         for(int i=0;i<size;i++){
@@ -14,6 +15,8 @@ public class ArrayInsertion {
         System.out.println(//    Instantiation : create an array ; and allocate memory
                 Arrays.toString(arr));
     }
+
+ //inserting
      public void insert(int location , int value){
        try{
 
@@ -28,5 +31,7 @@ public class ArrayInsertion {
            }
 
      }
+
+
 
 }
