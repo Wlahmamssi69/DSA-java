@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74c85d0-d152-45cc-abd2-36fd4f5e565b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/MiddleArray.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/linkedList/LinearList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/BestScore.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/SumDiagonal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/MiddleArray.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/MiddleArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +55,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.MiddleArray">
+  <component name="RunManager" selected="Application.BestScore">
     <configuration name="ArrayCreation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.arrays.ArrayCreation" />
       <module name="DSA-java" />
@@ -78,6 +79,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.example.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BestScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.BestScore" />
+      <module name="DSA-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +125,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TwoDimentionArrayCreation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.arrays.TwoDimentionArrayCreation" />
+    <configuration name="SumDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.SumDiagonal" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="org.example.arrays.*" />
+          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -127,16 +141,18 @@
     <list>
       <item itemvalue="Application.ArrayCreation" />
       <item itemvalue="Application.AverageTemperature" />
+      <item itemvalue="Application.BestScore" />
       <item itemvalue="Application.MiddleArray" />
-      <item itemvalue="Application.TwoDimentionArrayCreation" />
+      <item itemvalue="Application.SumDiagonal" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BestScore" />
+        <item itemvalue="Application.SumDiagonal" />
         <item itemvalue="Application.MiddleArray" />
         <item itemvalue="Application.AverageTemperature" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.TwoDimentionArrayCreation" />
       </list>
     </recent_temporary>
   </component>
