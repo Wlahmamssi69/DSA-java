@@ -3,6 +3,8 @@ package org.example;
 import org.example.arrays.SingleDimensionArray;
 import org.example.arrays.TwoDimensionArray;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -33,11 +35,24 @@ public class Main {
 
 //    2D Array Ops
         System.out.println("-------------- 2D ARRAYS ----------------");
-        TwoDimensionArray TwoDArray = new TwoDimensionArray(2,2);
+        TwoDimensionArray twoDArray = new TwoDimensionArray(2,2);
+
         //inserting
-        TwoDArray.insert(1,0,20);
-        TwoDArray.insert(1,0,10);
-        TwoDArray.insert(2,0,20);
+        twoDArray.insert(1,0,20);
+        twoDArray.insert(1,0,10);
+        twoDArray.insert(2,0,20);
+        //2D traverse
+        System.out.println("Array traversal");
+        twoDArray.traverse();
+        //2D search
+        System.out.println("Array search");
+        twoDArray.searchIn2DArray(20);
+        //2D traverse
+        System.out.println("Delete a given value");
+        twoDArray.deleteAtRowAndColumn(1,0);
+
+        System.out.println("----printing the 2D Array");
+        System.out.println(Arrays.deepToString(twoDArray.getArr()));
     }
 
 
