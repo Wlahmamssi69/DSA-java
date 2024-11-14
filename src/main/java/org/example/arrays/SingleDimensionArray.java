@@ -2,12 +2,12 @@ package org.example.arrays;
 
 import java.util.Arrays;
 
-public class ArrayInsertion {
+public class SingleDimensionArray {
     //declare reference
     int[] arr = null;
 
 //instantiation
-    public ArrayInsertion(int size){
+    public SingleDimensionArray(int size){
         arr= new int[size];
         for(int i=0;i<size;i++){
             arr[i] = Integer.MIN_VALUE;

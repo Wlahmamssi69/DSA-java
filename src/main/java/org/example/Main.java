@@ -1,12 +1,10 @@
 package org.example;
 
-import org.example.arrays.ArrayInsertion;
-
-import java.util.Arrays;
+import org.example.arrays.SingleDimensionArray;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayInsertion arr =new ArrayInsertion(10);
+        SingleDimensionArray arr =new SingleDimensionArray(10);
         //insertion
         arr.insert(1,9);
         arr.insert(2,2);
