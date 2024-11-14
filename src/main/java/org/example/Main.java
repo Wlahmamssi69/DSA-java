@@ -1,9 +1,12 @@
 package org.example;
 
 import org.example.arrays.SingleDimensionArray;
+import org.example.arrays.TwoDimensionArray;
 
 public class Main {
     public static void main(String[] args) {
+
+//        1D Array Ops
         SingleDimensionArray arr =new SingleDimensionArray(10);
         //insertion
         arr.insert(1,9);
@@ -25,5 +28,17 @@ public class Main {
         System.out.println("Array after deleting element at index 2 : ");
         System.out.println(arr.getArr()[2]);
 
+
+
+
+//    2D Array Ops
+        System.out.println("-------------- 2D ARRAYS ----------------");
+        TwoDimensionArray TwoDArray = new TwoDimensionArray(2,2);
+        //inserting
+        TwoDArray.insert(1,0,20);
+        TwoDArray.insert(1,0,10);
+        TwoDArray.insert(2,0,20);
     }
+
+
 }
