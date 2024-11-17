@@ -3,7 +3,7 @@ package org.example.leetcode.arrays;
 public class FindMissingNumber {
     public static void main(String[] args) {
         int[] array = {1,2,3,4,6};
-        System.out.println("the missing number : "+findMissingNumber(array,6));
+        System.out.println("the missing number : "+findMissingNumber(array));
 
     }
     public static int findMissingNumber(int[] arr) {
