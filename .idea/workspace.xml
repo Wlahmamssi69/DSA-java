@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74c85d0-d152-45cc-abd2-36fd4f5e565b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/Leetcode26.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/Leetcode1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/Leetcode121.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +35,9 @@
     </option>
   </component>
   <component name="ProjectId" id="2onJmkvkCZwKxq8Xi6e6bEsn70y" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -52,7 +56,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Leetcode26">
+  <component name="RunManager" selected="Application.Leetcode1">
     <configuration name="ArrayCreation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.arrays.ArrayCreation" />
       <module name="DSA-java" />
@@ -65,19 +69,6 @@
         <ENTRIES>
           <ENTRY IS_ENABLED="true" PARSER="runconfig" IS_EXECUTABLE="false" />
         </ENTRIES>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="BestScore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.BestScore" />
-      <module name="DSA-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
       </extension>
       <method v="2">
         <option name="Make" enabled="true" />
@@ -109,6 +100,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Leetcode1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.Leetcode1" />
+      <module name="DSA-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Leetcode121" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.Leetcode121" />
+      <module name="DSA-java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Leetcode26" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.Leetcode26" />
       <module name="DSA-java" />
@@ -122,34 +139,21 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SumDiagonal" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.SumDiagonal" />
-      <module name="DSA-java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="org.example.leetcode.arrays.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Application.ArrayCreation" />
+      <item itemvalue="Application.Leetcode1" />
+      <item itemvalue="Application.Leetcode121" />
       <item itemvalue="Application.Leetcode26" />
-      <item itemvalue="Application.BestScore" />
       <item itemvalue="Application.DuplicateNumbers" />
       <item itemvalue="Application.FindMissingNumber" />
-      <item itemvalue="Application.SumDiagonal" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Leetcode1" />
+        <item itemvalue="Application.Leetcode121" />
         <item itemvalue="Application.Leetcode26" />
         <item itemvalue="Application.DuplicateNumbers" />
         <item itemvalue="Application.FindMissingNumber" />
-        <item itemvalue="Application.BestScore" />
-        <item itemvalue="Application.SumDiagonal" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +166,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731499574775</updated>
       <workItem from="1731499576058" duration="11984000" />
-      <workItem from="1731774389840" duration="3748000" />
+      <workItem from="1731774389840" duration="7272000" />
     </task>
     <servers />
   </component>
