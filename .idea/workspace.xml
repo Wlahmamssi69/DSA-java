@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a74c85d0-d152-45cc-abd2-36fd4f5e565b" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/Leetcode1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/Leetcode121.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/leetcode/arrays/FindNumberInArray.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,7 +54,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Leetcode1">
+  <component name="RunManager" selected="Application.FindNumberInArray">
     <configuration name="ArrayCreation" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="org.example.arrays.ArrayCreation" />
       <module name="DSA-java" />
@@ -87,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindMissingNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.FindMissingNumber" />
+    <configuration name="FindNumberInArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.leetcode.arrays.FindNumberInArray" />
       <module name="DSA-java" />
       <extension name="coverage">
         <pattern>
@@ -141,19 +139,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.ArrayCreation" />
+      <item itemvalue="Application.FindNumberInArray" />
       <item itemvalue="Application.Leetcode1" />
       <item itemvalue="Application.Leetcode121" />
       <item itemvalue="Application.Leetcode26" />
       <item itemvalue="Application.DuplicateNumbers" />
-      <item itemvalue="Application.FindMissingNumber" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FindNumberInArray" />
         <item itemvalue="Application.Leetcode1" />
         <item itemvalue="Application.Leetcode121" />
         <item itemvalue="Application.Leetcode26" />
         <item itemvalue="Application.DuplicateNumbers" />
-        <item itemvalue="Application.FindMissingNumber" />
       </list>
     </recent_temporary>
   </component>
@@ -166,7 +164,7 @@
       <option name="presentableId" value="Default" />
       <updated>1731499574775</updated>
       <workItem from="1731499576058" duration="11984000" />
-      <workItem from="1731774389840" duration="7272000" />
+      <workItem from="1731774389840" duration="8657000" />
     </task>
     <servers />
   </component>
