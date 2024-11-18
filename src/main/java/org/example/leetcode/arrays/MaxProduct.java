@@ -6,10 +6,10 @@ import java.util.Arrays;
 public class MaxProduct {
     public static void main(String[] args) {
         int[] arr={30,20,40,60,20,80};
-        System.out.println(Arrays.toString(maxProduct(arr)));
+        System.out.println(maxProduct(arr));
     }
 
-    public static String[] maxProduct(int[] intArray) {
+    public static String maxProduct(int[] intArray) {
         // TODO
         int max=intArray[0];
         int maxBis=0;
@@ -19,6 +19,6 @@ public class MaxProduct {
                 max = intArray[i];
             }
         }
-        return new String[]{Integer.toString(maxBis),Integer.toString(max)};
+        return Integer.toString(maxBis)+","+Integer.toString(max);
     }
 }
